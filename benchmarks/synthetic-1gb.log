@@ -1,0 +1,24 @@
+# Synthetic data: node scripts/generate-data.js (26,000,000 rows, 50 campaigns, seed 42, 933,802,949 bytes)
+# Machine: Intel(R) Core(TM) i7-14700K, Windows 10, Node v26.13.0
+# Command: node aggregator.js --input ad_data.csv --output results
+
+## Run 1
+Rows read:         26,000,000
+Rows skipped:      0
+Campaigns:         50
+Processing time:   5.08 s
+Peak memory (RSS): 106.5 MB
+
+## Run 2
+Rows read:         26,000,000
+Rows skipped:      0
+Campaigns:         50
+Processing time:   5.09 s
+Peak memory (RSS): 106.5 MB
+
+## Run 3
+Rows read:         26,000,000
+Rows skipped:      0
+Campaigns:         50
+Processing time:   5.13 s
+Peak memory (RSS): 105.4 MB

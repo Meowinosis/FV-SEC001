@@ -1,0 +1,18 @@
+{
+  "name": "ad-performance-aggregator",
+  "version": "1.0.0",
+  "description": "Streams a large ad performance CSV and reports the top campaigns by CTR and CPA.",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "ad-aggregator": "aggregator.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node aggregator.js",
+    "test": "node --test",
+    "generate-data": "node scripts/generate-data.js"
+  }
+}

@@ -1,0 +1,25 @@
+# Real data: ad_data.csv from the challenge repository (26,843,544 rows, 50 campaigns, 1,043,304,870 bytes, CRLF line endings)
+# Machine: Intel(R) Core(TM) i7-14700K, Windows 10, Node v26.13.0
+# Command: node aggregator.js --input ad_data.csv --output results
+# Check: results/top10_ctr.csv and results/top10_cpa.csv are byte-identical to the output of an independent Python (csv + Decimal) implementation
+
+## Run 1
+Rows read:         26,843,544
+Rows skipped:      0
+Campaigns:         50
+Processing time:   5.58 s
+Peak memory (RSS): 106.4 MB
+
+## Run 2
+Rows read:         26,843,544
+Rows skipped:      0
+Campaigns:         50
+Processing time:   5.45 s
+Peak memory (RSS): 106.7 MB
+
+## Run 3
+Rows read:         26,843,544
+Rows skipped:      0
+Campaigns:         50
+Processing time:   5.49 s
+Peak memory (RSS): 106.4 MB
